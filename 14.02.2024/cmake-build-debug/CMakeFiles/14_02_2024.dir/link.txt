@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/14_02_2024.dir/main.cpp.o CMakeFiles/14_02_2024.dir/Addition.cpp.o CMakeFiles/14_02_2024.dir/Division.cpp.o CMakeFiles/14_02_2024.dir/Expression.cpp.o CMakeFiles/14_02_2024.dir/Multiplication.cpp.o CMakeFiles/14_02_2024.dir/Number.cpp.o CMakeFiles/14_02_2024.dir/Operator.cpp.o CMakeFiles/14_02_2024.dir/Subtraction.cpp.o -o 14_02_2024 
