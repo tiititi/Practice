@@ -11,8 +11,9 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "rus");
-    Number number1(5);
-    Number number2(3);
+
+    shared_ptr<Number> number1 = make_shared<Number>(5);
+    shared_ptr<Number> number2 = make_shared<Number>(7);
 
     Addition addition(number1, number2);
     Subtraction subtraction(number1, number2);

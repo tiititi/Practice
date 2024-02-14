@@ -1,15 +1,17 @@
 #ifndef INC_14_02_2024_OPERATOR_H
 #define INC_14_02_2024_OPERATOR_H
+
+#include <memory>
 #include "Expression.h"
 
 class Operator : public Expression
 {
 protected:
-    const Expression& leftOperand;
-    const Expression& rightOperand;
+    shared_ptr<const Expression>leftOperand;
+    shared_ptr<const Expression>rightOperand;
 
 public:
-    Operator(const Expression& leftOperand, const Expression& rightOperand)
+    Operator(const shared_ptr <const Expression>& leftOperand, const shared_ptr <const Expression>& rightOperand)
             : leftOperand(leftOperand), rightOperand(rightOperand) {}
 
     [[nodiscard]] virtual double calculate(double left, double right) const = 0;
