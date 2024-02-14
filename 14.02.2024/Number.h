@@ -1,6 +1,5 @@
 #ifndef INC_14_02_2024_NUMBER_H
 #define INC_14_02_2024_NUMBER_H
-
 #include "Expression.h"
 
 class Number : public Expression

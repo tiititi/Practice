@@ -1,6 +1,5 @@
 #ifndef INC_14_02_2024_DIVISION_H
 #define INC_14_02_2024_DIVISION_H
-
 #include "Operator.h"
 
 class Division : public Operator

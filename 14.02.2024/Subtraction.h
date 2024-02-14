@@ -1,6 +1,5 @@
 #ifndef INC_14_02_2024_SUBTRACTION_H
 #define INC_14_02_2024_SUBTRACTION_H
-
 #include "Operator.h"
 
 class Subtraction : public Operator

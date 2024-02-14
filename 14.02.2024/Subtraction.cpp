@@ -1,5 +1,4 @@
 #include "Subtraction.h"
-#include "Operator.h"
 [[nodiscard]] double Subtraction::calculate(double left, double right) const
     {
         return left - right;

@@ -1,6 +1,5 @@
 #ifndef INC_14_02_2024_MULTIPLICATION_H
 #define INC_14_02_2024_MULTIPLICATION_H
-
 #include "Operator.h"
 
 class Multiplication : public Operator

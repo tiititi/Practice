@@ -1,6 +1,5 @@
 #ifndef INC_14_02_2024_OPERATOR_H
 #define INC_14_02_2024_OPERATOR_H
-
 #include "Expression.h"
 
 class Operator : public Expression
