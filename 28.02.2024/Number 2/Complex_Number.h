@@ -5,7 +5,7 @@
 using namespace std;
 
 class Complex
-        {
+{
 private:
     double real;
     double imag;
@@ -13,8 +13,8 @@ private:
 public:
     explicit Complex(double real = 0.0, double imag = 0.0);
 
-    friend std::ostream& operator<<(std::ostream& os, const Complex& complex);
-    friend std::istream& operator>>(std::istream& is, Complex& complex);
+    friend std::ostream& operator<<(ostream& os, const Complex& complex);
+    friend std::istream& operator>>(istream& is, Complex& complex);
 
     Complex operator+(const Complex& other) const;
     Complex operator*(const Complex& other) const;
