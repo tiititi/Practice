@@ -1,0 +1,14 @@
+[
+    {
+        "arguments": [
+            "/usr/bin/c++",
+            "-g",
+            "-std=gnu++14",
+            "-fdiagnostics-color=always",
+            "-DPVS_STUDIO",
+            "/home/kostja/Рабочий стол/practicum/20.03.2024/Number 2/Number 2.cpp"
+        ],
+        "dependencies": [],
+        "id": 1
+    }
+]
