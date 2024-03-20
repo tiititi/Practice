@@ -1,0 +1,3 @@
+/home/kostja/Рабочий стол/practicum/20.03.2024/Number 1/cmake-build-debug/CMakeFiles/Number_1.dir
+/home/kostja/Рабочий стол/practicum/20.03.2024/Number 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kostja/Рабочий стол/practicum/20.03.2024/Number 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
